@@ -13,10 +13,10 @@
 
 <body>
     <header class="bg-transparent fixed w-full  top-4 z-[9999]">
-        <div class="container mx-auto px-6 md:px-12 flex justify-between items-center bg-white rounded-full shadow-md py-4">
+        <div class="container mx-auto px-6 md:px-12 flex justify-between items-center bg-[#ffffffc4] hover:bg-[#fff] rounded-full shadow-md py-4">
             <!-- Logo Section -->
             <div class="flex items-center">
-                <img src="../images/logo.png" alt="VeloxPays Logo" class="w-full h-full object-contain" />
+                <img src="../images/logo.png" alt="VeloxPays Logo" class="w-120 object-contain" />
             </div>
 
             <!-- Navigation Links for Desktop -->
@@ -25,11 +25,11 @@
                 <a href="#" class="text-gray-600 hover:text-primary">Contact</a>
                 <a href="#" class="text-gray-600 hover:text-primary">About Us</a>
                 <a href="#" class="text-gray-600 hover:text-primary">Help</a>
-                <a href="login.html" class="text-gray-600 hover:text-primary">Log In</a>
+                <!-- <a href="login.html" class="text-gray-600 hover:text-primary">Log In</a>
                 <a href="sign-up.html">
                     <button class="px-4 py-2 bg-primary text-white  rounded-full hover:bg-black transition">Sign
                         Up</button>
-                </a>
+                </a> -->
             </nav>
 
             <!-- Burger Icon for Mobile -->
@@ -52,11 +52,11 @@
                 <a href="#" class="text-gray-600 hover:text-primary">Product</a>
                 <a href="#" class="text-gray-600 hover:text-primary">Company</a>
                 <a href="#" class="text-gray-600 hover:text-primary">Help</a>
-                <a href="login.html" class="text-gray-600 text-lg hover:text-primary">Log In</a>
+                <!-- <a href="login.html" class="text-gray-600 text-lg hover:text-primary">Log In</a>
                 <a href="sign-up.html">
                     <button class="px-4 py-2 bg-primary text-white  rounded-full hover:bg-black transition">Sign
                         Up</button>
-                </a>
+                </a> -->
             </div>
         </div>
     </header>
@@ -67,12 +67,31 @@
             <div class="container px-10 mx-auto flex flex-col lg:flex-row items-start lg:items-center justify-between relative">
                 <!-- Left Section -->
                 <div class="lg:w-1/2 mb-12 lg:mb-0">
-                    <div class="text-left space-y-4">
+                    <div class="text-left space-y-8">
                         <h1 class="text-3xl lg:text-5xl font-bold text-black">Send Money To <br> <span class="text-primary">Africa</span> Instantly</h1>
                         <p class="text-lg text-black">
                             Send money quickly and securely with Red Sea Money Transfer. Enjoy low fees, competitive exchange rates, and fast international money transfers anytime, anywhere.
                         </p>
+                        <div class="flex mt-16"> <!-- Parent container to center the button -->
+                            <div class="group inline-flex items-center rounded-xl  relative overflow-visible">
+                                <!-- Button -->
+                                <a href="download-app.html" class="group relative inline-flex items-center px-4 py-4 bg-[#2B7DC2] text-white rounded-2xl font-bold text-xl shadow-md hover:shadow-lg duration-300 hover:-translate-y-1">
+                                    <span class="relative z-10 flex items-center">
+                                        Download App Now
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-7 h-7 ml-3 group-hover:translate-x-2 transition-transform">
+                                            <path d="M5 12h14"></path>
+                                            <path d="m12 5 7 7-7 7"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex  gap-2 mt-10">
+                            <a href="#" class="transform hover:scale-105 transition-transform" target="_blank" rel="noopener noreferrer"><img src="../images/appstore.png" alt="Download on App Store" class="h-14 object-contain"></a>
+                            <a href="#" class="transform hover:scale-105 transition-transform" target="_blank" rel="noopener noreferrer"><img src="../images/playstore.png" alt="Get it on Google Play" class="h-14 object-contain"></a>
+                        </div>
                     </div>
+                    
                 </div>
 
                 <!-- Right Section for desktop -->
@@ -111,7 +130,7 @@
             <div class="container mx-auto flex flex-col justify-between md:flex-row flex-wrap px-6 md:px-12 relative z-10">
                 <!-- Higher z-index for content -->
                 <!-- Text Section -->
-                <div class="lg:w-1/2">
+                <div class="lg:w-1/2 space-y-6">
                     <span class="text-md font-bold mb-4 text-[#003C6E]">CHOOSE US</span>
                     <p class="text-sm mt-2">Reliable. Fast. Secure.</p>
                     <h1 class="text-3xl lg:text-5xl font-bold mt-4 mb-4 leading-tight">
@@ -176,7 +195,7 @@
 
         <section class="py-16 md:py-24 lg:py-32 relative bg-white bg-cover bg-no-repeat min-h-screen flex items-center justify-center" style="background-image: url('../images/ever-bg.png')">
             <div class="container mx-auto flex flex-col justify-center md:flex-row flex-wrap px-6 md:px-12 relative z-10">
-                <div class="w-full">
+                <div class="w-full space-y-6">
                     <p class="text-md text-center font-bold mb-4 text-[#003C6E]">WAY TO SEND AND RECEIVE MONEY</p>
                     <h1 class="text-3xl  lg:text-5xl text-center font-bold mt-4 mb-4 leading-tight">
                         Easy & Secure <span class="text-primary">Ways to <br> Send</span> Money
@@ -220,7 +239,7 @@
                 <img src="../images/dotted-1.png" class="w-full h-full object-contain">
             </div>
             <div class="container mx-auto flex flex-col justify-center md:flex-row flex-wrap px-6 md:px-12 relative z-10">
-                <div class="w-full">
+                <div class="w-full space-y-6">
                     <h1 class="text-3xl  lg:text-5xl text-center font-bold mt-4 mb-4 leading-tight">
                         Easy & Secure <span class="text-primary">Ways to <br> Receive</span> Money
                     </h1>
@@ -242,7 +261,7 @@
                             </div>
                             <!-- Icon at the top inside the card -->
                             <div
-                                class="absolute top-4 left-1/2 transform -translate-x-1/2 rounded-full bg-primary group-hover:bg-[#003C6E] p-2 shadow-md z-10">
+                                class="absolute top-4 left-1/2 transform -translate-x-1/2 rounded-full bg-white group-hover:bg-[#003C6E] p-2 shadow-md z-10">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-8 w-8 text-[#003C6E]  group-hover:text-white">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
                                   </svg>
@@ -270,7 +289,7 @@
                             </div>
                             <!-- Icon at the top inside the card -->
                             <div
-                                class="absolute top-4 left-1/2 transform -translate-x-1/2 rounded-full bg-primary group-hover:bg-[#003C6E] p-2 shadow-md z-10">
+                                class="absolute top-4 left-1/2 transform -translate-x-1/2 rounded-full bg-white group-hover:bg-[#003C6E] p-2 shadow-md z-10">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                     stroke="currentColor" class="h-8 w-8 text-[#003C6E]  group-hover:text-white">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -304,7 +323,7 @@
                             </div>
                             <!-- Icon at the top inside the card -->
                             <div
-                                class="absolute top-4 left-1/2 transform -translate-x-1/2 rounded-full bg-primary group-hover:bg-[#003C6E] p-2 shadow-md z-10">
+                                class="absolute top-4 left-1/2 transform -translate-x-1/2 rounded-full bg-white group-hover:bg-[#003C6E] p-2 shadow-md z-10">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-8 w-8 text-[#003C6E]  group-hover:text-white">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
                                   </svg>
@@ -334,7 +353,7 @@
                 <img src="../images/kite.png" class="w-full h-full object-contain">
             </div>
             <div class="container mx-auto flex flex-col justify-center md:flex-row flex-wrap px-6 md:px-12 relative z-10">
-                <div class="w-full">
+                <div class="w-full space-y-6">
                     <p class="text-md text-center font-bold mb-4 text-[#003C6E]">HOW IT WORKS?</p>
                     <h1 class="text-3xl  lg:text-5xl text-center font-bold mt-4 mb-4 leading-tight">
                         Send <span class="text-primary">Money in 4 <br> Easy</span> Steps
@@ -394,7 +413,7 @@
 
         <section class="py-16 bg-white">
             <div class="container mx-auto">
-                <div class="w-full">
+                <div class="w-full space-y-6">
                     <p class="text-md text-center font-bold mb-4 text-[#003C6E]">OUR REVIEWS</p>
                     <h1 class="text-3xl  lg:text-5xl text-center font-bold mt-4 mb-4 leading-tight">
                         Happy <span class="text-primary">Customers Trust  <br></span> Our Services
@@ -408,7 +427,7 @@
                             <!-- Card 1 -->
                             <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
-                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
+                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-20 left-14 w-16 h-16 rounded-full">
                             
                                 <!-- Content Container -->
                                 <div class="bg-white text-center shadow-md text-primary rounded-full p-6 w-96 h-96 flex items-center justify-center">
@@ -447,7 +466,7 @@
                             <!-- Card 2 -->
                             <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
-                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
+                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-20 left-14  w-16 h-16 rounded-full">
                             
                                 <!-- Content Container -->
                                 <div class="bg-white text-center shadow-md text-primary rounded-full p-6 w-96 h-96 flex items-center justify-center">
@@ -485,7 +504,7 @@
                             <!-- Card 3 -->
                             <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
-                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
+                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-20 left-14  w-16 h-16 rounded-full">
                             
                                 <!-- Content Container -->
                                 <div class="bg-white text-center shadow-md text-primary rounded-full p-6 w-96 h-96 flex items-center justify-center">
@@ -523,7 +542,7 @@
                             <!-- Card 4 -->
                             <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
-                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
+                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-20 left-14  w-16 h-16 rounded-full">
                             
                                 <!-- Content Container -->
                                 <div class="bg-white text-center shadow-md text-primary rounded-full p-6 w-96 h-96 flex items-center justify-center">
@@ -562,7 +581,7 @@
                             <!-- Card 5 -->
                             <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
-                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
+                                <img src="../images/img-1.png" alt="Profile Image" class="absolute top-20 left-14  w-16 h-16 rounded-full">
                             
                                 <!-- Content Container -->
                                 <div class="bg-white text-center shadow-md text-primary rounded-full p-6 w-96 h-96 flex items-center justify-center">
@@ -605,7 +624,7 @@
 
         <section class="py-16 bg-white">
             <div class="container mx-auto">
-                <div class="w-full">
+                <div class="w-full space-y-6">
                     <h1 class="text-3xl  lg:text-5xl text-center font-bold mt-4 mb-4 leading-tight">
                         Frequently <span class="text-primary">Asked  <br></span> Questions
                     </h1>
