@@ -265,7 +265,7 @@ const swiper = new Swiper('.swiper-container', {
           slidesPerView: 2,
       },
       1024: {
-          slidesPerView: 4,
+          slidesPerView: 3,
       },
   },
 });

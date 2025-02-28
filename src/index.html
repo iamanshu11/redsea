@@ -74,14 +74,31 @@
                         </p>
                     </div>
                 </div>
-                <!-- Right Section -->
-                <div class="lg:w-1/3 hidden xl:block text-black rounded-lg">
+
+                <!-- Right Section for desktop -->
+                <div class="lg:w-1/2 hidden xl:block text-black rounded-lg   transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                     <div class="relative w-full h-full rounded-xl px-4 py-4">
                         <div class="absolute lg:-bottom-80 xxl:-bottom-60 w-full ">
-                            <img src="../images/hero-side.png" class="w-full h-full object-contain">
+                            <img src="../images/hero-side-1.png" class="w-full h-full object-contain">
                         </div>
                     </div>
                 </div>
+                
+                 <!-- Right Section for phone -->
+                <div class="lg:w-1/2 xl:hidden block relative group  mx-auto cursor-pointer">
+                    <!-- Blurred Background Glow -->
+                    <div class="absolute -inset-4 bg-gradient-to-br from-primary/20 to-secondary/20 opacity-0  scale-95 blur-3xl rounded-[3rem] 
+                         duration-[900ms] ease-out group-hover:opacity-100 group-hover:scale-100"></div>
+
+                    <!-- Floating Image with Smooth Transition -->
+                    <div class="relative transform  duration-[900ms]  w-full  mx-auto ease-out group-hover:-translate-y-3">
+                        <div class=" w-full ">
+                            <img src="../images/hero-side-phone.png" class="w-full h-full object-contain">
+                        </div>
+                    </div>
+                </div>
+
+               
             </div>
         </section>
         <section class="py-16 md:py-24 lg:py-32 relative bg-white ">
@@ -108,7 +125,7 @@
                 <div class="lg:w-1/2 flex flex-col items-center mt-10 lg:mt-0">
                     <div class="grid gap-4">
                         <!-- Feature 1 -->
-                        <div class="flex bg-[#F5FAFF] shadow-md text-[#003C6E] items-center px-2">
+                        <div class="flex bg-[#F5FAFF] shadow-md text-[#003C6E] items-center px-2 transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                             <div class="p-3 rounded-lg">
                                 <img src="../images/why-choose/img-1.png" class="w-full h-full">
                             </div>
@@ -118,8 +135,9 @@
                                 Reliable and secure transactions
                             </div>
                         </div>
+                        
                         <!-- Feature 2 -->
-                        <div class="flex bg-[#F5FAFF] shadow-md text-[#003C6E] items-center px-2">
+                        <div class="flex bg-[#F5FAFF] shadow-md text-[#003C6E] items-center px-2  transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                             <div class="p-3 rounded-lg">
                                 <img src="../images/why-choose/img-2.png" class="w-full h-full">
                             </div>
@@ -130,7 +148,7 @@
                             </div>
                         </div>
                         <!-- Feature 3 -->
-                        <div class="flex bg-[#F5FAFF] shadow-md text-[#003C6E] items-center px-2">
+                        <div class="flex bg-[#F5FAFF] shadow-md text-[#003C6E] items-center px-2  transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                             <div class="p-3 rounded-lg">
                                 <img src="../images/why-choose/img-3.png" class="w-full h-full">
                             </div>
@@ -141,7 +159,7 @@
                             </div>
                         </div>
                         <!-- Feature 4 -->
-                        <div class="flex bg-[#F5FAFF] shadow-md text-[#003C6E] items-center px-2">
+                        <div class="flex bg-[#F5FAFF] shadow-md text-[#003C6E] items-center px-2  transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                             <div class="p-3 rounded-lg">
                                 <img src="../images/why-choose/img-4.png" class="w-full h-full">
                             </div>
@@ -156,7 +174,7 @@
             </div>
         </section>
 
-        <section class="py-16 md:py-24 lg:py-32 relative bg-white">
+        <section class="py-16 md:py-24 lg:py-32 relative bg-white bg-cover bg-no-repeat min-h-screen flex items-center justify-center" style="background-image: url('../images/ever-bg.png')">
             <div class="container mx-auto flex flex-col justify-center md:flex-row flex-wrap px-6 md:px-12 relative z-10">
                 <div class="w-full">
                     <p class="text-md text-center font-bold mb-4 text-[#003C6E]">WAY TO SEND AND RECEIVE MONEY</p>
@@ -164,24 +182,157 @@
                         Easy & Secure <span class="text-primary">Ways to <br> Send</span> Money
                     </h1>
                 </div>
+                <div class="relative group  mx-auto cursor-pointer">
+                    <!-- Blurred Background Glow -->
+                    <div class="absolute -inset-4 bg-gradient-to-br from-primary/20 to-secondary/20 opacity-0  scale-95 blur-3xl rounded-[3rem] 
+                         duration-[900ms] ease-out group-hover:opacity-100 group-hover:scale-100"></div>
 
-                <div class="flex flex-wrap justify-center  mt-10">
-                    <div class="bg-white rounded-lg  shadow-md w-80">
-                        <div class=" mb-3 p-6">
-                            <div class="text-center bg-primary max-w-fit mx-auto p-2 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
-                                  </svg>
+                    <!-- Floating Image with Smooth Transition -->
+                    <div class="relative transform  duration-[900ms]  w-full  mx-auto ease-out group-hover:-translate-y-3">
+                        <div class="flex flex-wrap justify-center  mt-10">
+                            <div class="bg-white rounded-lg  shadow-md w-80">
+                                <div class=" mb-3 p-6">
+                                    <div class="text-center bg-primary max-w-fit mx-auto p-2 rounded-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+                                          </svg>
+                                    </div>
+                                    <h2 class="text-md text-center font-bold mb-4 text-[#003C6E]">Send Money Online</h2>
+                                    <p class="text-md text-center font-bold mb-4 text-[#000]">Transfer securely using your bank account or card.</p>
+                                </div>
                             </div>
-                            <h2 class="text-md text-center font-bold mb-4 text-[#003C6E]">Send Money Online</h2>
-                            <p class="text-md text-center font-bold mb-4 text-[#000]">Transfer securely using your bank account or card.</p>
                         </div>
                     </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <section class="py-16 md:py-24 lg:py-32 relative bg-[#E3F1FE] ">
+            <div class="absolute top-8 hidden lg:block">
+                <img src="../images/dotted-3.png" class="w-full h-full object-contain">
+            </div>
+            <div class="absolute top-10 left-16 hidden lg:block">
+                <img src="../images/kite.png" class="w-full h-full object-contain">
+            </div>
+            <div class="absolute top-40 left-72 hidden lg:block">
+                <img src="../images/dotted-1.png" class="w-full h-full object-contain">
+            </div>
+            <div class="container mx-auto flex flex-col justify-center md:flex-row flex-wrap px-6 md:px-12 relative z-10">
+                <div class="w-full">
+                    <h1 class="text-3xl  lg:text-5xl text-center font-bold mt-4 mb-4 leading-tight">
+                        Easy & Secure <span class="text-primary">Ways to <br> Receive</span> Money
+                    </h1>
+                </div>
+                <div class="absolute top-72 right-[55%] hidden lg:block">
+                    <img src="../images/dotted-2.png" class="w-full h-full object-contain">
+                </div>
+                <div class="absolute top-72 right-[36%] hidden lg:block">
+                    <img src="../images/dotted-2.png" class="w-full h-full object-contain">
+                </div>
+                <div class="flex-col md:flex md:flex-row md:items-center justify-around mt-8  gap-5 p-4">
+                    <!-- Card 1 -->
+                    <div class="flex justify-center items-center  mt-4 transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+                        <div
+                            class="relative bg-white rounded-[15px] shadow-lg overflow-hidden  max-w-sm w-full cursor-pointer transition-all duration-300 ease-in-out group">
+                            <!-- Blue Background Transition -->
+                            <div
+                                class="absolute top-0 left-0 w-full h-20 bg-[#003C6E] rounded-[15px] group-hover:h-full transition-all duration-300 ease-in-out z-0">
+                            </div>
+                            <!-- Icon at the top inside the card -->
+                            <div
+                                class="absolute top-4 left-1/2 transform -translate-x-1/2 rounded-full bg-primary group-hover:bg-[#003C6E] p-2 shadow-md z-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-8 w-8 text-[#003C6E]  group-hover:text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                                  </svg>
+                                  
+        
+                            </div>
+                            <!-- Main Card Content -->
+                            <div class="p-4  relative ">
+                                <!-- Secondary Content Box -->
+                                <div
+                                    class="mt-10 py-8 px-6 text-center rounded-[15px] shadow-md bg-white group-hover:bg-primary transition-colors duration-300 ease-in-out">
+                                    <p class="text-center text-xl font-semibold text-gray-900 group-hover:text-white">Deposit
+                                        Mobile Money <br> Transfer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="flex justify-center items-center mt-4 transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+                        <div
+                            class="relative bg-white rounded-[15px] shadow-lg overflow-hidden max-w-sm w-full cursor-pointer transition-all duration-300 ease-in-out group">
+                            <!-- Blue Background Transition -->
+                            <div
+                                class="absolute top-0 left-0 w-full h-20 bg-[#003C6E] rounded-[15px] group-hover:h-full transition-all duration-300 ease-in-out z-0">
+                            </div>
+                            <!-- Icon at the top inside the card -->
+                            <div
+                                class="absolute top-4 left-1/2 transform -translate-x-1/2 rounded-full bg-primary group-hover:bg-[#003C6E] p-2 shadow-md z-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="h-8 w-8 text-[#003C6E]  group-hover:text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
+                                </svg>
+        
+                            </div>
+                            <!-- Main Card Content -->
+                            <div class="p-4  relative ">
+                                <!-- Secondary Content Box -->
+                                <div
+                                    class="mt-10 py-8 px-6 text-center rounded-[15px] shadow-md bg-white group-hover:bg-primary transition-colors duration-300 ease-in-out">
+                                    <p class="text-center text-xl font-semibold text-gray-900 group-hover:text-white">Deposit
+                                        Directly Into <br>
+                                        Your Bank!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+        
+        
+                    <!-- Card 3 -->
+                    <div class="flex justify-center items-center mt-4 transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
+                        <div
+                            class="relative bg-white rounded-[15px] shadow-lg overflow-hidden max-w-sm w-full cursor-pointer transition-all duration-300 ease-in-out group">
+                            <!-- Blue Background Transition -->
+                            <div
+                                class="absolute top-0 left-0 w-full h-20 bg-[#003C6E] rounded-[15px] group-hover:h-full transition-all duration-300 ease-in-out z-0">
+                            </div>
+                            <!-- Icon at the top inside the card -->
+                            <div
+                                class="absolute top-4 left-1/2 transform -translate-x-1/2 rounded-full bg-primary group-hover:bg-[#003C6E] p-2 shadow-md z-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-8 w-8 text-[#003C6E]  group-hover:text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                                  </svg>
+        
+                            </div>
+                            <!-- Main Card Content -->
+                            <div class="p-4  relative ">
+                                <!-- Secondary Content Box -->
+                                <div
+                                    class="mt-10 py-8 px-6 text-center rounded-[15px] shadow-md bg-white group-hover:bg-primary transition-colors duration-300 ease-in-out">
+                                    <p class="text-center text-xl font-semibold text-gray-900 group-hover:text-white">Deposit
+                                        Fast & Easy <br> Cash Pickup</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="absolute top-[23rem] right-[3rem] hidden lg:block">
+                    <img src="../images/dotted-1.png" class="w-full h-full object-contain">
                 </div>
             </div>
         </section>
 
-        <section class="py-16 md:py-24 lg:py-32 relative bg-white">
+        <section class="py-10 md:py-24 lg:py-32 relative bg-white">
+            <div class="absolute top-[-4rem] right-[7rem] hidden lg:block">
+                <img src="../images/kite.png" class="w-full h-full object-contain">
+            </div>
             <div class="container mx-auto flex flex-col justify-center md:flex-row flex-wrap px-6 md:px-12 relative z-10">
                 <div class="w-full">
                     <p class="text-md text-center font-bold mb-4 text-[#003C6E]">HOW IT WORKS?</p>
@@ -191,15 +342,15 @@
                 </div>
                 <div class="flex flex-col lg:flex-row items-center justify-between gap-5 mt-8">
                     <!-- Left side content for desktop -->
-                    <div class="lg:flex-1 flex flex-col items-center lg:items-start text-center lg:text-left lg:gap-24">
-                        <div class="flex items-center justify-center">
+                    <div class="lg:flex-1 flex flex-col  lg:items-start  lg:text-left gap-8 lg:gap-24">
+                        <div class="flex ">
                             <h2 class="text-6xl flex-shrink-0 text-primary">1.</h2>
                             <div class="ml-4">
                                 <h2 class="text-xl font-bold">Sign Up</h2>
                                 <p>Create a free account in minutes.</p>
                             </div>
                         </div>
-                        <div class="flex items-center justify-center">
+                        <div class="flex ">
                             <h2 class="text-6xl flex-shrink-0 text-primary">2.</h2>
                             <div class="ml-4">
                                 <h2 class="text-xl font-bold">Initiate Transfer</h2>
@@ -208,19 +359,27 @@
                         </div>
                     </div>
                     <!-- Central phone image -->
-                    <div class="lg:flex-none mb-8 lg:mb-0 max-w-sm mx-auto">
-                        <img src="../images/send-money.png" alt="Red Sea Money Transfer App" class="w-full h-auto">
+                    <div class="relative group lg:flex-none mb-8 lg:mb-0 max-w-sm mx-auto">
+                        <!-- Blurred Background Glow -->
+                        <div class="absolute -inset-4  scale-95 blur-3xl rounded-[3rem] 
+                             duration-[900ms] ease-out group-hover:opacity-100 group-hover:scale-100"></div>
+
+                        <!-- Floating Image with Smooth Transition -->
+                        <div class="relative transform  duration-[900ms]  w-full  mx-auto ease-out group-hover:-translate-y-3">
+                            <img src="../images/send-money.png" alt="Red Sea Money Transfer App" class="w-full h-auto">
+                        </div>
                     </div>
+                    
                     <!-- Right side content for desktop -->
-                    <div class="lg:flex-1 flex flex-col items-center lg:items-start text-center lg:text-left lg:gap-24">
-                        <div class="flex items-center justify-center">
+                    <div class="lg:flex-1 flex flex-col  lg:items-start gap-8 lg:text-left lg:gap-24">
+                        <div class="flex ">
                             <h2 class="text-6xl flex-shrink-0 text-primary">3.</h2>
                             <div class="ml-4">
                                 <h2 class="text-xl font-bold">Make Payment</h2>
                                 <p>Pay securely via bank card or transfer.</p>
                             </div>
                         </div>
-                        <div class="flex items-center justify-center">
+                        <div class="flex ">
                             <h2 class="text-6xl flex-shrink-0 text-primary">4.</h2>
                             <div class="ml-4">
                                 <h2 class="text-xl font-bold">Track & Deliver</h2>
@@ -247,7 +406,7 @@
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <!-- Card 1 -->
-                            <div class="swiper-slide flex items-center justify-center relative">
+                            <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
                                 <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
                             
@@ -286,7 +445,7 @@
                             </div>
                             
                             <!-- Card 2 -->
-                            <div class="swiper-slide flex items-center justify-center relative">
+                            <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
                                 <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
                             
@@ -324,7 +483,7 @@
                                 </div>
                             </div>
                             <!-- Card 3 -->
-                            <div class="swiper-slide flex items-center justify-center relative">
+                            <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
                                 <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
                             
@@ -362,7 +521,7 @@
                                 </div>
                             </div>
                             <!-- Card 4 -->
-                            <div class="swiper-slide flex items-center justify-center relative">
+                            <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
                                 <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
                             
@@ -401,7 +560,7 @@
                             </div>
 
                             <!-- Card 5 -->
-                            <div class="swiper-slide flex items-center justify-center relative">
+                            <div class="swiper-slide flex items-center justify-center relative transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <!-- Profile Image -->
                                 <img src="../images/img-1.png" alt="Profile Image" class="absolute top-6 left-6 w-16 h-16 rounded-full">
                             
@@ -456,7 +615,7 @@
                     <div class="space-y-2 flex-col md:flex md:flex-row md:items-center">
                         <div class="mt-4 mx-auto">
                             <ul class="grid gap-6" data-list="faq">
-                              <li class="group">
+                              <li class="group transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <input class="peer/option-1 hidden" type="radio" id="option-1" name="options">
                                 <label class="peer-checked/option-1:bg-primary  peer-checked/option-1:text-white peer-checked/option-1:[&>svg]:rotate-45 block cursor-pointer p-4 pr-12 font-bold shadow-md rounded-full transition-all duration-150 ease-in-out relative" for="option-1" >
                                     Where can I send money?
@@ -468,7 +627,7 @@
                                   </div>
                                 </div>
                               </li>
-                              <li class="group" >
+                              <li class="group transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer" >
                                 <input class="peer/option-2 hidden" type="radio" id="option-2" name="options" >
                                 <label class="peer-checked/option-2:bg-primary peer-checked/option-2:text-white peer-checked/option-2:[&>svg]:rotate-45 block cursor-pointer p-4 pr-12 font-bold shadow-md rounded-full transition-all duration-150 ease-in-out relative" for="option-2">
                                     Can I change the displayed currency?
@@ -480,7 +639,7 @@
                                   </div>
                                 </div>
                               </li>
-                              <li class="group" >
+                              <li class="group transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer" >
                                 <input class="peer/option-3 hidden" type="radio" id="option-3" name="options">
                                 <label class="peer-checked/option-3:bg-primary peer-checked/option-3:text-white peer-checked/option-3:[&>svg]:rotate-45 block cursor-pointer p-4 pr-12 font-bold shadow-md rounded-full transition-all duration-150 ease-in-out relative" for="option-3" >
                                   Option 3
@@ -492,7 +651,7 @@
                                   </div>
                                 </div>
                               </li>
-                              <li class="group" >
+                              <li class="group transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer" >
                                 <input class="peer/option-4 hidden" type="radio" id="option-4" name="options">
                                 <label class="peer-checked/option-4:bg-primary peer-checked/option-4:text-white peer-checked/option-4:[&>svg]:rotate-45 block cursor-pointer p-4 pr-12 font-bold shadow-md rounded-full transition-all duration-150 ease-in-out relative" for="option-4" >
                                   Option 4
@@ -509,7 +668,7 @@
 
                           <div class="mt-4 mx-auto">
                             <ul class="grid gap-6" data-list="faq">
-                              <li class="group">
+                              <li class="group transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer">
                                 <input class="peer/option-11 hidden" type="radio" id="option-11" name="options">
                                 <label class="peer-checked/option-11:bg-primary  peer-checked/option-11:text-white peer-checked/option-11:[&>svg]:rotate-45 block cursor-pointer p-4 pr-12 font-bold shadow-md rounded-full transition-all duration-150 ease-in-out relative" for="option-11" >
                                     Where can I send money?
@@ -521,7 +680,7 @@
                                   </div>
                                 </div>
                               </li>
-                              <li class="group" >
+                              <li class="group transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer" >
                                 <input class="peer/option-12 hidden" type="radio" id="option-12" name="options" >
                                 <label class="peer-checked/option-12:bg-primary peer-checked/option-12:text-white peer-checked/option-12:[&>svg]:rotate-45 block cursor-pointer p-4 pr-12 font-bold shadow-md rounded-full transition-all duration-150 ease-in-out relative" for="option-12">
                                     Can I change the displayed currency?
@@ -533,7 +692,7 @@
                                   </div>
                                 </div>
                               </li>
-                              <li class="group" >
+                              <li class="group transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer" >
                                 <input class="peer/option-13 hidden" type="radio" id="option-13" name="options">
                                 <label class="peer-checked/option-13:bg-primary peer-checked/option-13:text-white peer-checked/option-3:[&>svg]:rotate-45 block cursor-pointer p-4 pr-12 font-bold shadow-md rounded-full transition-all duration-150 ease-in-out relative" for="option-13" >
                                   Option 3
@@ -545,7 +704,7 @@
                                   </div>
                                 </div>
                               </li>
-                              <li class="group" >
+                              <li class="group transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer" >
                                 <input class="peer/option-14 hidden" type="radio" id="option-14" name="options">
                                 <label class="peer-checked/option-14:bg-primary peer-checked/option-14:text-white peer-checked/option-4:[&>svg]:rotate-45 block cursor-pointer p-4 pr-12 font-bold shadow-md rounded-full transition-all duration-150 ease-in-out relative" for="option-14" >
                                   Option 4
