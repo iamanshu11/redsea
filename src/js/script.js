@@ -483,3 +483,20 @@ if(faqs.length != 0){
   });
   
 }
+
+
+const backToTopButton = document.getElementById('backToTopButton');
+
+backToTopButton.onclick = () =>
+  document.documentElement.scroll({
+    top: 0,
+    behavior: "smooth"
+  });
+
+window.onscroll = () => {
+  if (document.documentElement.scrollTop > 200) {
+    backToTopButton.classList.remove('hidden');
+  } else {
+    backToTopButton.classList.add('hidden');
+  }
+};
