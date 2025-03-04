@@ -29,3 +29,28 @@ body
     }
 }
 
+
+.swiper-button-prev, .swiper-button-next {
+    position: absolute;
+    top: auto;
+    bottom: -90px;
+    width: 65px;
+    height: 65px;
+    background: none;
+    /* z-index: 10; */
+    background: #dbdbdb;
+    border-radius: 50%;
+    padding: 4px;
+    color: #2B7DC2;
+}
+.swiper-button-prev svg, .swiper-button-next svg {
+    fill: #000; /* SVG color */
+}
+.swiper-button-prev {
+    left: 50%;
+    transform: translateX(-70px); /* Adjust for perfect center alignment */
+}
+.swiper-button-next {
+    left: 50%;
+    transform: translateX(20px); /* Adjust for perfect center alignment */
+}

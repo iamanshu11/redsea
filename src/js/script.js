@@ -248,27 +248,37 @@ document.addEventListener('click', (event) => {
 });
 
 
+
+
 // *********** slider  **************************** 
-const swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
-  spaceBetween: 20,
-  loop: true,
-  autoplay: {
-    delay: 2500, 
-    disableOnInteraction: false, 
-  },
-  breakpoints: {
-      640: {
-          slidesPerView: 1,
+document.addEventListener('DOMContentLoaded', function () {
+  var swiperRTL = new Swiper('.swiper-container-rtl', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
       },
-      768: {
-          slidesPerView: 2,
+      autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
       },
-      1024: {
-          slidesPerView: 3,
+      breakpoints: {
+          640: {
+              slidesPerView: 1,
+          },
+          768: {
+              slidesPerView: 2,
+          },
+          1024: {
+              slidesPerView: 3,
+          },
       },
-  },
+  });
 });
+
+
 
 // *********** box-input  **************************** 
 function moveFocus(event, inputIndex) {
