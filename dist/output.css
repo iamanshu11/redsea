@@ -559,7 +559,7 @@ video {
 html,
     body{
   overflow-x: hidden;
-  font-family: 'Open Sans';
+  font-family: 'Inter';
 }
 
 .container{
@@ -1246,6 +1246,10 @@ html,
 
 .text-center{
   text-align: center;
+}
+
+.font-custom{
+  font-family: "Inter";
 }
 
 .text-3xl{

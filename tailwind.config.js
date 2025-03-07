@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ['"Inter"'],
+      },
       screens: {
         'xxl': '1568px', // Custom breakpoint at 1568px
       },
